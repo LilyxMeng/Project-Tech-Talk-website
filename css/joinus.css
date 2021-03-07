@@ -1,0 +1,63 @@
+/* application process */
+.application-process {
+  padding: 40px 5vw 50px 5vw;
+}
+
+.application-process-title {
+  font-size: 38px;
+  color: #cb564f;
+  padding-bottom: 40px;
+}
+
+.application-intro {
+  margin-bottom: 30px;
+}
+
+.application-list-title {
+  color: #284063;
+  margin-bottom: 3px;
+  font-weight: 700;
+}
+
+.application-list-item {
+  margin-bottom: 20px;
+}
+
+/* department cards */
+.department-cards {
+}
+
+/* department info */
+.department-info {
+  padding: 40px 5vw 50px 5vw;
+}
+
+.department-info-content {
+  padding: 30px 0 40px 0;
+}
+
+.department-title {
+  font-size: 30px;
+  color: #284063;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.department-sub-title {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.inline-blue-text {
+  color: #284063;
+  font-weight: 500;
+}
+
+.department-info-list-item {
+  margin-bottom: 3px;
+}
+
+.department-separation-line {
+  border: 0;
+  border-top: 3px solid #7FA0B6;
+}
