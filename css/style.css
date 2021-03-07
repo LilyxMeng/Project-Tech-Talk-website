@@ -103,17 +103,19 @@ body {
     font-size: 25px;
   }
 
+  .footer-logo-img {
+    margin-left: -530px;
+  }
+
   .footer-icon {
-    transform: scale(0.8);
-    padding-right: 20px;
+    transform: scale(0.75);
+    padding-right: 15px;
   }
 
   .footer-icon-last {
-    transform: scale(0.8);
-    padding-right: 25px;
+    transform: scale(0.75);
+    padding-right: 20px;
     padding-left: -20px;
     color: white;
   }
-
-
 }
