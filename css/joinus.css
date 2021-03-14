@@ -63,7 +63,6 @@ button {
   border-radius: 15px;
 }
 
-/* editing here */
 .department-card-img {
   width: 20vw;
   height: auto;
@@ -88,16 +87,39 @@ button {
 }
 
 @media (max-width: 900px) {
+  .department-cards {
+    margin-top: -30px;
+  }
+
   .department-title-text {
     font-size: 3vw;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
+  .department-cards {
+    display: grid;
+    margin-bottom: 20px;
+  }
+
+  .department-card {
+    width: 60vw;
+  }
+
+  .department-card-img {
+    width: 50vw;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 20px 0;
+  }
+
   .department-title-text {
-    font-size: 13px;
+    font-size: 28px;
+    margin-bottom: 20px;
   }
 }
+
 
 /* department info */
 /* .department-info {
