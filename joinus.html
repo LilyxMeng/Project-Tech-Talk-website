@@ -9,6 +9,7 @@
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/joinus.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
@@ -48,58 +49,100 @@
     </div>
 
     <div class="department-cards">
-        department cards to be added here later
-    </div>
-
-    <div class="department-info">
-        <div class="department-info-content">
-            <h3 class="department-title">Research and Writing Department</h3>
-            <p class="department-sub-title">Requirements:</p>
-            <ul class="list">
-                <li class="department-info-list-item">Knowledgeable about <span class="inline-blue-text">current
-                        events</span>, trends and pressing topics in engineering and computer science </li>
-                <li class="department-info-list-item">Knowledgeable in citing information</li>
-                <li class="department-info-list-item">Articulate in writing and proofreading</li>
-                <li class="department-info-list-item">Strong communication, fast response time</li>
-            </ul>
-            <br>
-            <p class="department-sub-title">Assignment:</p>
-            <p>Describe a current technological affair/innovation you’re interested in, it can be anything! What is it?
-                Why does it interest you? Do you think it will grow in the future? Why or why not?</p>
+        <div class="department">
+            <div class="department-card">
+                <img class="department-card-img" src="images/design-team.png">
+            </div>
+            <div class="department-title">
+                <h3 class="department-title-text"><button id="designTeamBtn"
+                        class="department-title-btn">Design<br>Team</button></h3>
+            </div>
+            <div id="designTeamModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="designTeamClose">X</span>
+                    <div class="department-info-content">
+                        <h3 class="department-title">Design Team</h3>
+                        <p class="department-sub-title">Requirements:</p>
+                        <ul class="list">
+                            <li class="department-info-list-item">Extensive knowledge in graphic design - this can be on
+                                Canva,
+                                Adobe Illustrator, Desygner etc. (although canva is preferred as designs can easily be
+                                shared)</li>
+                            <li class="department-info-list-item">Understanding on brand knowledge</li>
+                            <li class="department-info-list-item">Able to give and take constructive criticism from
+                                fellow
+                                designers
+                            </li>
+                        </ul>
+                        <br>
+                        <p class="department-sub-title">Assignment:</p>
+                        <p>A portfolio must be sumbitted​</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <hr class="department-separation-line">
-
-        <div class="department-info-content">
-            <h3 class="department-title">Design Department</h3>
-            <p class="department-sub-title">Requirements:</p>
-            <ul class="list">
-                <li class="department-info-list-item">Extensive knowledge in graphic design - this can be on Canva,
-                    Adobe Illustrator, Desygner etc. (although canva is preferred as designs can easily be shared)</li>
-                <li class="department-info-list-item">Understanding on brand knowledge</li>
-                <li class="department-info-list-item">Able to give and take constructive criticism from fellow designers
-                </li>
-            </ul>
-            <br>
-            <p class="department-sub-title">Assignment:</p>
-            <p>A portfolio must be sumbitted​</p>
+        <div class="department">
+            <div class="department-card">
+                <img class="department-card-img" src="images/content-team.png">
+            </div>
+            <div class="department-title">
+                <h3 class="department-title-text"><button id="contentTeamBtn"
+                        class="department-title-btn">Content<br>Team</button></h3>
+            </div>
+            <div id="contentTeamModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="contentTeamClose">X</span>
+                    <div class="department-info-content">
+                        <h3 class="department-title">Content Team</h3>
+                        <p class="department-sub-title">Requirements:</p>
+                        <ul class="list">
+                            <li class="department-info-list-item">Knowledgeable about <span
+                                    class="inline-blue-text">current
+                                    events</span>, trends and pressing topics in engineering and computer science </li>
+                            <li class="department-info-list-item">Knowledgeable in citing information</li>
+                            <li class="department-info-list-item">Articulate in writing and proofreading</li>
+                            <li class="department-info-list-item">Strong communication, fast response time</li>
+                        </ul>
+                        <br>
+                        <p class="department-sub-title">Assignment:</p>
+                        <p>Describe a current technological affair/innovation you’re interested in, it can be anything!
+                            What is it?
+                            Why does it interest you? Do you think it will grow in the future? Why or why not?</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <hr class="department-separation-line">
+        <div class="department">
+            <div class="department-card">
+                <img class="department-card-img" src="images/social-media-team.png">
+            </div>
+            <div class="department-title">
+                <h3 class="department-title-text"><button id="socialMediaTeamBtn" class="department-title-btn">Social
+                        Media<br>Team</button>
+                </h3>
+            </div>
+            <div id="socialMediaTeamModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="socialMediaTeamClose">X</span>
+                    <div class="department-info-content">
+                        <h3 class="department-title">Social Media Team</h3>
+                        <p class="department-sub-title">Requirements:</p>
+                        <ul class="list">
+                            <li class="department-info-list-item">Strong communication skills</li>
+                            <li class="department-info-list-item">Networking skills</li>
+                            <li class="department-info-list-item">Social media and outreach experience</li>
+                            <li class="department-info-list-item">Knowledge of the STEM and student-organisation
+                                community</li>
+                        </ul>
+                        <br>
+                        <p class="department-sub-title">Assignment:</p>
+                        <p>Describe your ideas to help grow Project Tech Talk (how we can expand reach etc.)</p>
+                    </div>
+                </div>
+            </div>
 
-        <div class="department-info-content">
-            <h3 class="department-title">Social Media Department</h3>
-            <p class="department-sub-title">Requirements:</p>
-            <ul class="list">
-                <li class="department-info-list-item">Strong communication skills</li>
-                <li class="department-info-list-item">Networking skills</li>
-                <li class="department-info-list-item">Social media and outreach experience</li>
-                <li class="department-info-list-item">Knowledge of the STEM and student-organisation community</li>
-
-            </ul>
-            <br>
-            <p class="department-sub-title">Assignment:</p>
-            <p>Describe your ideas to help grow Project Tech Talk (how we can expand reach etc.)</p>
         </div>
     </div>
 
@@ -116,6 +159,9 @@
                     class="fa fa-linkedin fa-3x footer-icon-last"></i></a>
         </div>
     </footer>
+
+    <!-- javascript files -->
+    <script src="js/popup.js"></script>
 </body>
 
 </html>

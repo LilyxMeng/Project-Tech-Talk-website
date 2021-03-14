@@ -24,12 +24,12 @@ body {
   color: #cb564f;
   font-size: 100px;
   font-weight: 600;
-  padding: 0 15px 20px 15px;
+  padding: 5px 15px 25px 15px;
 }
 
 .nav-line {
   border: 0;
-  border-top: 1px solid #737373;
+  border-top: 2.5px solid white;
 }
 
 .nav-links {
@@ -39,6 +39,8 @@ body {
   width: 80%;
   margin: auto;
   padding: 15px;
+  font-size: 18px;
+  font-weight: 450;
 }
 
 .nav-link,
@@ -55,6 +57,11 @@ body {
 @media (max-width: 600px) {
   .nav-title {
     font-size: 70px;
+    padding: 0 15px 20px 15px;
+  }
+
+  .nav-links {
+    font-size: 16px;
   }
 }
 
@@ -89,13 +96,15 @@ body {
 }
 
 .footer-icon {
-  padding-right: 50px;
+  padding-right: 40px;
   color: white;
+  transform: scale(0.9);
 }
 
 .footer-icon-last {
-  padding-right: 30px;
+  padding-right: 50px;
   color: white;
+  transform: scale(0.9);
 }
 
 @media (max-width: 650px) {

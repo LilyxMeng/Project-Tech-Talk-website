@@ -7,10 +7,24 @@
   text-align: center;
 }
 
-.intro-title {
+.intro-about-card {
+  background-color: #7FA0B6;
+  width: 500px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+/* .intro-title {
   font-size: 63px;
   color: #284063;
   font-weight: 600;
+} */
+
+.intro-title {
+  font-size: 50px;
+  color: white;
+  font-weight: 500;
+  padding-top: 20px;
 }
 
 .intro-logo-img {
@@ -24,8 +38,12 @@
   padding: 20px;
 }
 
-.intro-join-button {
+/* .intro-join-button {
   padding: 30px;
+} */
+
+.intro-join-button {
+  padding: 20px 0 40px 0;
 }
 
 .intro-join,
@@ -41,6 +59,16 @@
 .intro-join:hover {
   opacity: 0.8;
   transition: opacity 200ms ease-in-out;
+}
+
+@media (max-width: 600px) {
+  .intro-about-card {
+    width: 80vw;
+  }
+
+  .intro-title {
+    font-size: 40px;
+  }
 }
 
 /* posts */
