@@ -103,11 +103,11 @@ button {
   }
 
   .department-card {
-    width: 60vw;
+    width: 75vw;
   }
 
   .department-card-img {
-    width: 50vw;
+    width: 65vw;
     height: auto;
     display: block;
     margin: auto;
