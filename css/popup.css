@@ -12,7 +12,15 @@
 
 .modal-content {
   background-color: #fefefe;
-  margin: 25vh auto;
+  margin: 26vh auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 20px;
+}
+
+.modal-content-content-team {
+  background-color: #fefefe;
+  margin: 23vh auto;
   padding: 20px;
   width: 80%;
   border-radius: 20px;
@@ -21,6 +29,10 @@
 @media (max-width: 700px) {
   .modal-content {
     margin: 22vh auto;
+  }
+
+  .modal-content-content-team {
+    margin: 18vh auto;
   }
 }
 
