@@ -8,7 +8,7 @@
 }
 
 .intro-about-card {
-  background-color: #7FA0B6;
+  background-color: #7fa0b6;
   width: 500px;
   margin: auto;
   border-radius: 20px;
@@ -77,22 +77,78 @@
   margin: auto;
 }
 .posts-title {
-  font-size: 40px;
+  font-size: 35px;
   color: white;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
-/* posts filter */
-#posts-filter {
-  padding-top: 40px;
+.posts-search-bar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.posts-filter-btn,
-.posts-filter-btn:visited {
-  padding-right: 30px;
+.posts-search-bar {
+  padding: 15px 15px;
+  border-radius: 30px;
+  border: 1px solid #f1faee;
+  background-color: #f1faee;
+  width: 80%;
+  font-size: 18px;
+}
+
+.posts-search-icon {
+  transform: scale(2);
+  margin-left: -45px;
+  margin-top: -5px;
+}
+
+.posts-sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  padding-top: 25px;
+}
+
+.posts-section {
   text-decoration: none;
-  color: black;
+  color: white;
+  background-color: #284063;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
 }
 
-.filter-active {
-  text-decoration: underline;
+.posts-section-plus {
+  text-decoration: none;
+  color: white;
+  background-color: #284063;
+  padding: 10px 15px;
+  border-radius: 50%;
+  margin: auto;
+  text-align: center;
 }
+
+.posts-section:hover, .posts-section-plus:hover {
+  opacity: 0.8;
+  transition: opacity 200ms ease-in-out;
+}
+
+/* .posts-dropdown-500 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+@media (max-width: 1000px) {
+  .posts-dropdown-500 {
+    display: block;
+    
+  }
+} */
