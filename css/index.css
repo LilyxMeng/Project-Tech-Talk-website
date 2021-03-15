@@ -22,7 +22,7 @@
 
 .intro-title {
   font-size: 50px;
-  color: white;
+  color: #cb564f;
   font-weight: 500;
   padding-top: 20px;
 }
@@ -78,7 +78,7 @@
 }
 .posts-title {
   font-size: 40px;
-  color: #284063;
+  color: #cb564f;
 }
 
 /* posts filter */
