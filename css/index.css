@@ -14,12 +14,6 @@
   border-radius: 20px;
 }
 
-/* .intro-title {
-  font-size: 63px;
-  color: #284063;
-  font-weight: 600;
-} */
-
 .intro-title {
   font-size: 50px;
   color: white;
@@ -137,6 +131,8 @@ a:hover,
   transition: opacity 200ms ease-in-out;
 }
 
+
+/* posts dropdown */
 .dropdown-section {
   display: block;
   text-decoration: none;
@@ -205,6 +201,7 @@ a:hover,
   }
 }
 
+/* posts content cards */
 .posts-cards {
   height: 400px;
   /* change ^ later */
