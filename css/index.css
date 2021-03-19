@@ -38,10 +38,6 @@
   padding: 20px;
 }
 
-/* .intro-join-button {
-  padding: 30px;
-} */
-
 .intro-join-button {
   padding: 20px 0 40px 0;
 }
@@ -105,12 +101,13 @@
 }
 
 .posts-sections {
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 25px;
   margin: auto;
   width: 80%;
-  padding-top: 25px;
 }
 
 .posts-section {
@@ -123,7 +120,7 @@
   text-align: center;
 }
 
-.posts-section-plus {
+.posts-dropdown-btn {
   text-decoration: none;
   color: white;
   background-color: #284063;
@@ -133,22 +130,82 @@
   text-align: center;
 }
 
-.posts-section:hover, .posts-section-plus:hover {
+a:hover,
+.posts-dropdown-btn:hover,
+.dropdown-section:hover {
   opacity: 0.8;
   transition: opacity 200ms ease-in-out;
 }
 
-/* .posts-dropdown-500 {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.dropdown-section {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #284063;
+  padding: 10px 20px;
+  margin: auto;
+  text-align: center;
 }
 
-@media (max-width: 1000px) {
-  .posts-dropdown-500 {
-    display: block;
-    
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+
+/* #dropdown-biotech, #dropdown-covid, #dropdown-compsci, #dropdown-engineering {
+  display: none;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin-top: 10px;
+  margin-right: 10px;
 } */
+
+@media (max-width: 1100px) {
+  #posts-biotech {
+    display: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+
+@media (max-width: 900px) {
+  #posts-covid {
+    display: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+
+@media (max-width: 750px) {
+  #posts-compsci {
+    display: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  #posts-engineering {
+    display: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+
+.posts-cards {
+  height: 400px;
+  /* change ^ later */
+}

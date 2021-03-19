@@ -63,6 +63,7 @@ body {
 
   .nav-links {
     font-size: 16px;
+    justify-content: space-between;
   }
 }
 
