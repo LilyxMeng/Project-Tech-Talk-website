@@ -84,8 +84,13 @@
   border-radius: 30px;
   border: 1px solid #f1faee;
   background-color: #f1faee;
-  width: 80%;
+  width: 85%;
   font-size: 18px;
+}
+
+.search-btn {
+  color: inherit;
+  margin-top: -5px;
 }
 
 .posts-search-icon {
@@ -131,7 +136,6 @@ a:hover,
   transition: opacity 200ms ease-in-out;
 }
 
-
 /* posts dropdown */
 .dropdown-section {
   display: block;
@@ -151,17 +155,8 @@ a:hover,
   margin-right: 10px;
 }
 
-
-/* #dropdown-biotech, #dropdown-covid, #dropdown-compsci, #dropdown-engineering {
-  display: none;
-  display: none;
-  position: absolute;
-  z-index: 1;
-  margin-top: 10px;
-  margin-right: 10px;
-} */
-
-@media (max-width: 1100px) {
+/* for plus button */
+@media (max-width: 1150px) {
   #posts-biotech {
     display: none;
   }
@@ -171,7 +166,7 @@ a:hover,
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   #posts-covid {
     display: none;
   }
@@ -181,7 +176,7 @@ a:hover,
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   #posts-compsci {
     display: none;
   }
@@ -191,7 +186,7 @@ a:hover,
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   #posts-engineering {
     display: none;
   }
@@ -199,10 +194,45 @@ a:hover,
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .dropdown-section {
+    margin-left: -10px;
+  }
 }
 
 /* posts content cards */
 .posts-cards {
-  height: 400px;
+  margin-top: 50px;
+  /* height: 400px; */
   /* change ^ later */
 }
+
+.post-img {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 750px) {
+  .posts-cards {
+    margin-top: 40px;
+  }
+
+  .post-img {
+    margin-bottom: 30px;
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .row {
+    display: grid;
+  }
+}
+
