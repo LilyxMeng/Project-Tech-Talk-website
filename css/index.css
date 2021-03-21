@@ -34,6 +34,8 @@
 
 .intro-join-button {
   padding: 20px 0 40px 0;
+  transform: scale(1);
+  transition: transform .5s;
 }
 
 .intro-join,
@@ -46,9 +48,11 @@
   text-decoration: none;
 }
 
-.intro-join:hover {
+.intro-join-button:hover {
   opacity: 0.8;
   transition: opacity 200ms ease-in-out;
+  transform: scale(1.05);
+  transition: transform .5s;
 }
 
 @media (max-width: 600px) {
@@ -93,6 +97,10 @@
   margin-top: -5px;
 }
 
+.search-btn:hover {
+  transform: scale(1);
+}
+
 .posts-search-icon {
   transform: scale(2);
   margin-left: -45px;
@@ -117,6 +125,8 @@
   border-radius: 20px;
   margin: auto;
   text-align: center;
+  transform: scale(1);
+  transition: transform .5s;
 }
 
 .posts-dropdown-btn {
@@ -127,6 +137,8 @@
   border-radius: 50%;
   margin: auto;
   text-align: center;
+  transform: scale(1);
+  transition: transform .5s;
 }
 
 a:hover,
@@ -134,6 +146,8 @@ a:hover,
 .dropdown-section:hover {
   opacity: 0.8;
   transition: opacity 200ms ease-in-out;
+  transform: scale(1.05);
+  transition: transform .5s;
 }
 
 /* posts dropdown */
@@ -145,6 +159,8 @@ a:hover,
   padding: 10px 20px;
   margin: auto;
   text-align: center;
+  transform: scale(1);
+  transition: transform .5s;
 }
 
 .dropdown-content {
@@ -238,4 +254,3 @@ a:hover,
     display: grid;
   }
 }
-
