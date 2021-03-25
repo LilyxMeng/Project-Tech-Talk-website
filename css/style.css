@@ -52,7 +52,7 @@ body {
 
 .nav-link:hover {
   color: #7fa0b6;
-  transition: color 200ms ease-in-out;
+  transition: color .3s ease-in-out;
 }
 
 @media (max-width: 600px) {
@@ -108,6 +108,12 @@ body {
   color: white;
   transform: scale(0.9);
 }
+
+.footer-icon:hover, .footer-icon-last:hover {
+  color: #7fa0b6;
+  transition: color .3s ease-in-out;
+}
+
 
 @media (max-width: 650px) {
   .footer-title {
