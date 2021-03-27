@@ -67,7 +67,7 @@
 
 /* posts */
 .posts {
-  padding: 60px;
+  padding-top: 60px;
   margin: auto;
 }
 .posts-title {
@@ -96,14 +96,14 @@
   color: inherit;
   margin-top: -5px;
   transform: scale(1);
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
 .search-btn:hover {
   opacity: 0.8;
   transition: opacity 200ms ease-in-out;
   transform: scale(1.05);
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
 .posts-search-icon {
@@ -113,7 +113,6 @@
 }
 
 .posts-sections {
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,6 +131,7 @@
   text-align: center;
   transform: scale(1);
   transition: transform 0.3s;
+  margin-left: -4px;
 }
 
 .posts-dropdown-btn {
@@ -156,24 +156,25 @@
 }
 
 /* posts dropdown */
-.dropdown-section {
-  display: block;
-  text-decoration: none;
-  color: white;
-  background-color: #284063;
-  padding: 10px 20px;
-  margin: auto;
-  text-align: center;
-  transform: scale(1);
-  transition: transform 0.5s;
-}
-
 .dropdown-content {
   display: none;
   position: absolute;
   z-index: 1;
   margin-top: 10px;
-  margin-right: 10px;
+  padding-right: 20px;
+  margin-left: -20px;
+}
+
+.dropdown-section {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #284063;
+  padding: 10px 15px;
+  margin: auto;
+  text-align: center;
+  transform: scale(1);
+  transition: transform 0.5s;
 }
 
 /* for plus button */
@@ -185,25 +186,21 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .posts-sections {
+    width: 75%;
+  }
 }
 
 @media (max-width: 1000px) {
   #posts-covid {
     display: none;
   }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
 }
 
 @media (max-width: 850px) {
   #posts-compsci {
     display: none;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
   }
 }
 
@@ -212,22 +209,21 @@
     display: none;
   }
 
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  .dropdown-section {
-    margin-left: -10px;
+  .posts-sections {
+    width: 65%;
   }
 }
 
 /* posts content cards */
 .posts-cards {
-  width: 95%;
+  width: 90%;
   margin: auto;
   padding-top: 50px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.row {
+  display: flex;
 }
 
 .post-card {
@@ -241,4 +237,18 @@
   height: auto;
   margin: auto;
   margin-left: 5%;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.post-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  filter: drop-shadow(0 0 0.75rem white);
+}
+
+@media (max-width: 800px) {
+  .posts-cards {
+    width: 95%;
+  }
 }
