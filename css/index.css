@@ -279,11 +279,17 @@
 }
 
 .modal-posts-content {
-  margin-top: 35px;
+  margin: 35px auto auto auto;
 }
 
 @media(max-width: 700px) {
   .modal-content {
     width: 85%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    height: 76%;
   }
 }
