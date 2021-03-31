@@ -37,3 +37,16 @@ tikTokBtn.onclick = function () {
 tikTokClose.onclick = function () {
   tikTokModal.style.display = "none";
 }
+
+// The Perseverance of Mankind post
+var perseveranceMankindModal = document.getElementById("perseveranceMankindModal");
+var perseveranceMankindBtn = document.getElementById("perseveranceMankindBtn");
+var perseveranceMankindClose = document.getElementById("perseveranceMankindClose");
+
+perseveranceMankindBtn.onclick = function () {
+  perseveranceMankindModal.style.display = "block";
+}
+
+perseveranceMankindClose.onclick = function () {
+  perseveranceMankindModal.style.display = "none";
+}
