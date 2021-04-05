@@ -153,6 +153,7 @@
   transition: opacity 200ms ease-in-out;
   transform: scale(1.05);
   transition: transform 0.3s;
+  cursor: pointer;
 }
 
 /* posts dropdown */
@@ -160,7 +161,6 @@
   display: none;
   position: absolute;
   z-index: 1;
-  margin-top: 10px;
   padding-right: 20px;
   margin-left: -20px;
 }
@@ -178,8 +178,8 @@
 }
 
 /* for plus button */
-@media (max-width: 1150px) {
-  #posts-biotech {
+@media (max-width: 1000px) {
+  #postsEmergingTech {
     display: none;
   }
 
@@ -192,26 +192,25 @@
   }
 }
 
-@media (max-width: 1000px) {
-  #posts-covid {
+@media (max-width: 800px) {
+  #postsSmartCities {
     display: none;
   }
 }
 
-@media (max-width: 850px) {
-  #posts-compsci {
+@media (max-width: 550px) {
+  #postsCovid {
     display: none;
   }
 }
 
-@media (max-width: 600px) {
-  #posts-engineering {
-    display: none;
-  }
+/* filter buttons */
+.filterElements {
+  display: none;
+}
 
-  .posts-sections {
-    width: 65%;
-  }
+.show {
+  display: block;
 }
 
 /* posts content cards */
@@ -219,17 +218,15 @@
   width: 90%;
   margin: auto;
   padding-top: 50px;
+  padding-bottom: 10px;
   display: grid;
-}
-
-.row {
-  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .post-card {
   width: 100%;
   margin: auto;
-  padding-bottom: 2.5%;
+  padding-bottom: 7%;
 }
 
 .post-img {
@@ -286,7 +283,7 @@
   padding-bottom: 15px;
 }
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
   .modal-content {
     width: 85%;
   }
