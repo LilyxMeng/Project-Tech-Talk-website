@@ -46,6 +46,20 @@ details {
   margin-bottom: 20px;
 }
 
+.newsletter-link,
+.newsletter-link:visited {
+  color: #284063;
+  font-weight: bold;
+  text-decoration: underline solid transparent;
+  transition: opacity 0.4s, text-decoration 0.4s ease;
+}
+
+.newsletter-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+  transition: opacity 0.4s, text-decoration 0.4s ease;
+}
+
 .newsletter-signup-btn {
   background: #284063;
   color: white;
@@ -75,80 +89,3 @@ details {
     width: 80%;
   }
 }
-
-/* .newsletter-left {
-  width: 50%;
-}
-
-.newsletter-img-card {
-  background-color: #f1faed;
-  width: 60%;
-  height: 150px;
-  margin: auto auto 25px 5vw;
-  border-radius: 20px;
-  padding: 10px 15px;
-}
-
-.newsletter-title-card {
-  background-color: #284063;
-  width: 60%;
-  margin: auto auto 25px 5vw;
-  border-radius: 20px;
-  padding: 10px 15px;
-  text-align: center;
-  color: white;
-}
-
-.newsletter-title {
-  font-weight: 500;
-  font-size: 25px;
-}
-
-.newsletter-right {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.newsletter-description {
-  border: 3px solid white;
-  border-radius: 20px;
-  padding: 20px;
-  color: white;
-  margin: auto 3vw 25px auto;
-  text-align: center;
-  font-size: 16px;
-}
-
-@media (max-width: 800px) {
-  .newsletter-section {
-    display: grid;
-  }
-
-  .newsletter-left {
-    width: 85%;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    margin-bottom: 20px;
-  }
-
-  .newsletter-img-card {
-    margin: auto;
-    margin-bottom: 20px;
-    width: 90%;
-  }
-
-  .newsletter-title-card {
-    margin: auto;
-    width: 90%;
-  }
-
-  .newsletter-right {
-    width: 85%;
-    margin: auto;
-  }
-  
-  .newsletter-description {
-    margin: auto;
-  }
-} */
