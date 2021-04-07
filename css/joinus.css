@@ -68,8 +68,14 @@
   text-align: center;
 }
 
+.department-title-btn {
+  text-decoration: underline solid transparent;
+  transition: text-decoration 0.4s ease;
+}
+
 .department-title-btn:hover {
   text-decoration: underline;
+  transition: text-decoration 0.4s ease;
 }
 
 @media (max-width: 900px) {
@@ -163,7 +169,7 @@
   margin-top: 30px;
 }
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
   .modal-content {
     width: 85%;
   }
