@@ -18,7 +18,7 @@ details {
   padding: 20px;
   background: white;
   border-radius: 20px;
-  margin: 20px 10px 10px 10px;
+  margin: 20px 10px 20px 10px;
   color: #414141;
   font-weight: normal;
 }
@@ -88,5 +88,9 @@ details {
 @media (max-width: 600px) {
   .newsletter-img {
     width: 80%;
+  }
+
+  .newsletter-content {
+    margin: 10px 0px 10px 0px;
   }
 }
