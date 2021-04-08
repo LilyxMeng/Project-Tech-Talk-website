@@ -109,12 +109,13 @@
 }
 
 .posts-sections {
-  display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 25px;
   margin: auto;
   width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .posts-section {
@@ -126,74 +127,14 @@
   margin: auto;
   text-align: center;
   transition: transform 0.4s, opacity 0.4s;
-  margin-left: -4px;
+  margin-bottom: 10px;
 }
 
-.posts-dropdown-btn {
-  text-decoration: none;
-  color: white;
-  background-color: #284063;
-  padding: 10px 15px;
-  border-radius: 50%;
-  margin: auto;
-  text-align: center;
-  transition: transform 0.4s, opacity 0.4s;
-}
-
-/* posts dropdown */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  padding-right: 20px;
-  margin-left: -20px;
-}
-
-.dropdown-section {
-  display: block;
-  text-decoration: none;
-  color: white;
-  background-color: #284063;
-  padding: 10px 15px;
-  margin: auto;
-  text-align: center;
-  transition: transform 0.4s, opacity 0.4s;
-}
-
-.posts-section:hover,
-.posts-dropdown-btn:hover,
-.dropdown-section:hover {
+.posts-section:hover {
   opacity: 0.8;
   transform: scale(1.05);
   transition: transform 0.4s, oapcity 0.4s;
   cursor: pointer;
-}
-
-/* for plus button */
-@media (max-width: 1000px) {
-  #postsEmergingTech {
-    display: none;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  .posts-sections {
-    width: 75%;
-  }
-}
-
-@media (max-width: 800px) {
-  #postsSmartCities {
-    display: none;
-  }
-}
-
-@media (max-width: 550px) {
-  #postsCovid {
-    display: none;
-  }
 }
 
 /* filter buttons */
