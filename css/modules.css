@@ -1,5 +1,6 @@
 .placeholder {
   padding: 70px;
-  height: 300px; /* take this out later */
+  height: 200px; /* take this out later */
   text-align: center;
+  color: white;
 }
