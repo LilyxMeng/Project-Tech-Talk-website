@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Tech Talk Home</title>
-    <!-- stylesheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -41,8 +40,8 @@
     <div class="posts" id="posts">
         <h2 class="posts-title">Explore Our Latest Posts</h2>
         <div class="posts-search-bar-section">
-            <input class="posts-search-bar">
-            <a href="#" class="search-btn"><i class="fa fa-search posts-search-icon"></i></a>
+            <input class="posts-search-bar" id="search">
+            <a class="search-btn" id="searchBtn"><i class="fa fa-search posts-search-icon"></i></a>
         </div>
         <div class="posts-sections">
             <button id="postsAll" class="posts-section" onclick="filterSelection('all')">All</button>
@@ -55,7 +54,7 @@
         </div>
         <div class="posts-cards">
             <!-- post start -->
-            <div class="post-card filterElements covid">
+            <div class="post-card filterElements covid" id="bioprintingCard">
                 <button><img id="bioprintingBtn" class="post-img" src="images/bioprinting.png"
                         alt="Bioprinting"></button>
             </div>
@@ -638,9 +637,8 @@
                     class="fa fa-linkedin fa-3x footer-icon-last"></i></a>
         </div>
     </footer>
-
+    <script src="main.js">s</script>
     <script src="js/index.js"></script>
-
 </body>
 
 </html>
