@@ -83,13 +83,13 @@ body {
   display: flex;
   bottom: 0;
   left: 0;
+  padding: 25px 20px;
 }
 
 .footer-left {
   display: flex;
   align-items: center;
   width: 50%;
-  padding: 25px 20px;
 }
 
 .footer-logo-img {
@@ -111,14 +111,10 @@ body {
   width: 50%;
 }
 
-.footer-links {
-  margin-right: 20px;
-}
-
 .footer-icon {
   color: white;
   width: 50px;
-  padding: 20px;
+  padding: 15px;
 }
 
 .footer-icon:hover,
@@ -128,6 +124,10 @@ body {
 }
 
 @media (max-width: 650px) {
+  .footer {
+    padding: 20px 10px;
+  }
+
   .footer-title {
     font-size: 25px;
   }
