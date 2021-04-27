@@ -89,12 +89,14 @@ body {
   display: flex;
   align-items: center;
   width: 50%;
+  padding: 25px 20px;
 }
 
 .footer-logo-img {
-  transform: scale(0.07);
-  margin: -520px;
+  width: 80px;
+  height: auto;
   border-radius: 50%;
+  margin: 0 20px 0 10px;
 }
 
 .footer-title {
@@ -109,16 +111,14 @@ body {
   width: 50%;
 }
 
-.footer-icon {
-  padding-right: 40px;
-  color: white;
-  transform: scale(0.9);
+.footer-links {
+  margin-right: 20px;
 }
 
-.footer-icon-last {
-  padding-right: 50px;
+.footer-icon {
   color: white;
-  transform: scale(0.9);
+  width: 50px;
+  padding: 20px;
 }
 
 .footer-icon:hover,
@@ -132,22 +132,10 @@ body {
     font-size: 25px;
   }
 
-  .footer-logo-img {
-    transform: scale(0.06);
-    margin-left: -535px;
-    margin-right: -540px;
-  }
-
   .footer-icon {
-    transform: scale(0.7);
-    padding-right: 15px;
-  }
-
-  .footer-icon-last {
-    transform: scale(0.7);
-    padding-right: 20px;
-    padding-left: -20px;
-    color: white;
+    padding: 10px;
+    width: 35px;
+    transform: scale(0.8);
   }
 }
 
