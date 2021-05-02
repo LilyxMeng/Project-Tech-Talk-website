@@ -1,0 +1,22 @@
+{
+  "name": "projecttechtalk-website",
+  "version": "1.0.0",
+  "description": "projecttechtalk website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LilyxMeng/ProjectTechTalk-website.git"
+  },
+  "keywords": [
+    "projecttechtalk"
+  ],
+  "author": "Lily Meng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LilyxMeng/ProjectTechTalk-website/issues"
+  },
+  "homepage": "https://github.com/LilyxMeng/ProjectTechTalk-website#readme"
+}

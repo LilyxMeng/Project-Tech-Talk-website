@@ -64,10 +64,9 @@ ol li p {
 
 .department-card-img {
   width: 20vw;
-  height: auto;
   display: block;
-  margin: auto;
   padding: 20px 0;
+  margin: auto;
 }
 
 .department-title-text {
