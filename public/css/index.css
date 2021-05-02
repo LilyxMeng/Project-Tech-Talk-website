@@ -202,7 +202,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  height: 590px;
+  height: 560px;
   padding: 20px;
   width: 60%;
   border-radius: 20px;
@@ -220,5 +220,8 @@
 @media (max-width: 700px) {
   .modal-content {
     width: 85%;
+  }
+  .modal-posts-content {
+    transform: translate(-50%, -47.5%);
   }
 }
