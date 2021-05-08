@@ -55,7 +55,7 @@
 
 @media (max-width: 600px) {
   .intro-about-card {
-    width: 80vw;
+    width: 100%;
   }
 
   .intro-title {
