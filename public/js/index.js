@@ -299,6 +299,19 @@ warpDriveClose.onclick = function () {
   warpDriveModal.style.display = "none";
 }
 
+// The Global Semiconductor Shortage post
+var globalSemiconductorModal = document.getElementById("globalSemiconductorModal");
+var globalSemiconductorBtn = document.getElementById("globalSemiconductorBtn");
+var globalSemiconductorClose = document.getElementById("globalSemiconductorClose");
+
+globalSemiconductorBtn.onclick = function () {
+  globalSemiconductorModal.style.display = "block";
+}
+
+globalSemiconductorClose.onclick = function () {
+  globalSemiconductorModal.style.display = "none";
+}
+
 // button filter
 filterSelection("all");
 function filterSelection(c) {
