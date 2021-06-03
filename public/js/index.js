@@ -312,6 +312,19 @@ globalSemiconductorClose.onclick = function () {
   globalSemiconductorModal.style.display = "none";
 }
 
+// The Global Semiconductor Shortage post
+var fightersStormTroopersModal = document.getElementById("fightersStormTroopersModal");
+var fightersStormTroopersBtn = document.getElementById("fightersStormTroopersBtn");
+var fightersStormTroopersClose = document.getElementById("fightersStormTroopersClose");
+
+fightersStormTroopersBtn.onclick = function () {
+  fightersStormTroopersModal.style.display = "block";
+}
+
+fightersStormTroopersClose.onclick = function () {
+  fightersStormTroopersModal.style.display = "none";
+}
+
 // button filter
 filterSelection("all");
 function filterSelection(c) {
