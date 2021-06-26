@@ -2,6 +2,7 @@
   display: grid;
   width: 75%;
   margin: 50px auto;
+  padding-bottom: 150px;
 }
 
 details {
